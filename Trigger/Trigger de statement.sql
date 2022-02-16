@@ -5,7 +5,7 @@ REFERENCING NEW AS NEW OLD AS OLD
 BEGIN
 IF TO_NUMBER(TO_CHAR(SYSDATE, 'hh24')) NOT BETWEEN 9 AND 18
 THEN
-raise_application_error(-20001,'Operação não pode ser executada fora do horário de expediente.');
+raise_application_error(-20001,'Operaï¿½ï¿½o nï¿½o pode ser executada fora do horï¿½rio de expediente.');
 END IF;
 END;
 /
